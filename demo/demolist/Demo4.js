@@ -10,10 +10,10 @@ class Demo4 extends Component {
     render () { 
         return (
             <div className="demoPadding" >
-                <Tag  visible={true} deleted={true}>员工编号</Tag>
-                <Tag  visible={true} deleted={true}>员工姓名</Tag>
-                <Tag  visible={true} deleted={true}>员工性别</Tag>
-                <Tag  visible={true} deleted={true}>所属部门</Tag>
+                <Tag  visible={true} deleted>员工编号</Tag>
+                <Tag  visible={true} deleted>员工姓名</Tag>
+                <Tag  visible={true} deleted>员工性别</Tag>
+                <Tag  visible={true} deleted>所属部门</Tag>
             </div>
         )
     }

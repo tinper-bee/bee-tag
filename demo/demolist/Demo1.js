@@ -10,8 +10,8 @@ class Demo1 extends Component {
     render () { 
         return (
             <div className="demoPadding">
-                <Tag colors="defaultdark" onvisible>Default</Tag>
-                <Tag colors="defaultlight" onvisible bordered={true}>Default</Tag>
+                <Tag colors="dark">dark</Tag>
+                <Tag colors="light" bordered>light</Tag>
             </div>
         )
     }

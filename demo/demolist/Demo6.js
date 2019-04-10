@@ -14,41 +14,21 @@ import Tag from '../../src';
         return (
             <div className="demoPadding">
                 <div>
-                    <Tag colors="tag1">Tag</Tag>
-                    <Tag colors="tag2">Tag</Tag>
-                    <Tag colors="tag3">Tag</Tag>
-                    <Tag colors="tag4">Tag</Tag>
-                    <Tag colors="tag5">Tag</Tag>
-                    <Tag colors="tag6">Tag</Tag>
-                    <Tag colors="tag7">Tag</Tag>
-                    <Tag colors="tag8">Tag</Tag>
-                    <Tag colors="tag9">Tag</Tag>
-                    <Tag colors="tag10">Tag</Tag>
-                    <div className="divider"></div>
-                    <Tag colors="tag11">Tag</Tag>
-                    <Tag colors="tag12">Tag</Tag>
-                    <Tag colors="tag13">Tag</Tag>
-                    <Tag colors="tag14">Tag</Tag>
-                    <Tag colors="tag15">Tag</Tag>     
+                    <Tag colors="dark">dark</Tag>
+                    <Tag colors="primary">primary</Tag>
+                    <Tag colors="success">success</Tag>
+                    <Tag colors="warning">warning</Tag>
+                    <Tag colors="error">error</Tag>
+                    <Tag colors="info">info</Tag>
                 </div>  
-                <div className="divider0"></div>
+                <div className="divider"></div>
                 <div>
-                    <Tag bordered colors="border_tag1">Tag</Tag>
-                    <Tag bordered colors="border_tag2">Tag</Tag>
-                    <Tag bordered colors="border_tag3">Tag</Tag>
-                    <Tag bordered colors="border_tag4">Tag</Tag>
-                    <Tag bordered colors="border_tag5">Tag</Tag>
-                    <Tag bordered colors="border_tag6">Tag</Tag>
-                    <Tag bordered colors="border_tag7">Tag</Tag>
-                    <Tag bordered colors="border_tag8">Tag</Tag>
-                    <Tag bordered colors="border_tag9">Tag</Tag>
-                    <Tag bordered colors="border_tag10">Tag</Tag>
-                    <div className="divider"></div>
-                    <Tag bordered colors="border_tag11">Tag</Tag>
-                    <Tag bordered colors="border_tag12">Tag</Tag>
-                    <Tag bordered colors="border_tag13">Tag</Tag>
-                    <Tag bordered colors="border_tag14">Tag</Tag>
-                    <Tag bordered colors="border_tag15">Tag</Tag>
+                    <Tag bordered colors="dark">dark</Tag>
+                    <Tag bordered colors="primary">primary</Tag>
+                    <Tag bordered colors="success">success</Tag>
+                    <Tag bordered colors="warning">warning</Tag>
+                    <Tag bordered colors="error">error</Tag>
+                    <Tag bordered colors="info">info</Tag>
                 </div>       
             </div>
         )

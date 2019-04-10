@@ -10,10 +10,10 @@ class Demo2 extends Component {
     render () { 
         return (
             <div className="demoPadding">
-                <Tag colors="success">成功</Tag>
-                <Tag colors="warning">警告</Tag>
-                <Tag colors="error">错误</Tag>
-                <Tag colors="message">信息</Tag>
+                <Tag colors="success">success</Tag>
+                <Tag colors="warning">warning</Tag>
+                <Tag colors="error">error</Tag>
+                <Tag colors="info">info</Tag>
              </div>
         )
     }

@@ -10,7 +10,7 @@ class Demo3 extends Component {
     render () { 
         return (
             <div className="demoPadding">
-                <Tag disabled={true}>禁用</Tag>
+                <Tag disabled>disabled</Tag> 
             </div>
         )
     }
