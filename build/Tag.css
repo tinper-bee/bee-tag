@@ -43,23 +43,23 @@
 
 .u-tag.u-tag-success {
   color: #FFFFFF;
-  background-color: #1F8B30;
-  border: 1px #1F8B30 solid; }
+  background-color: rgb(76,175,80);
+  border: 1px rgb(76,175,80) solid; }
 
 .u-tag.u-tag-warning {
   color: #FFFFFF;
-  background-color: #EB8416;
-  border: 1px #EB8416 solid; }
+  background-color: rgb(255,152,0);
+  border: 1px rgb(255,152,0) solid; }
 
-.u-tag.u-tag-error {
+.u-tag.u-tag-danger {
   color: #FFFFFF;
-  background-color: #F44336;
-  border: 1px #F44336 solid; }
+  background-color: rgb(244,67,54);
+  border: 1px rgb(244,67,54) solid; }
 
 .u-tag.u-tag-info {
   color: #FFFFFF;
-  background-color: #00BCD4;
-  border: 1px #00BCD4 solid; }
+  background-color: rgb(0,188,212);
+  border: 1px rgb(0,188,212) solid; }
 
 .u-tag-disabled, .u-tag[disabled] {
   cursor: not-allowed;
@@ -92,60 +92,60 @@
 
 .u-tag.u-tag-dark {
   color: #FFFFFF;
-  background-color: #505F79;
-  border: 1px #505F79 solid; }
+  background-color: rgb(97,97,97);
+  border: 1px rgb(97,97,97) solid; }
 
 .u-tag.u-tag-primary {
   color: #FFFFFF;
-  background-color: #f53c32;
-  border: 1px #f53c32 solid; }
+  background-color: rgb(245, 60, 50);
+  border: 1px rgb(245, 60, 50) solid; }
 
 .u-tag.u-tag-success {
   color: #FFFFFF;
-  background-color: #1F8B30;
-  border: 1px #1F8B30 solid; }
+  background-color: rgb(76,175,80);
+  border: 1px rgb(76,175,80) solid; }
 
 .u-tag.u-tag-warning {
   color: #FFFFFF;
-  background-color: #EB8416;
-  border: 1px #EB8416 solid; }
+  background-color: rgb(255,152,0);
+  border: 1px rgb(255,152,0) solid; }
 
-.u-tag.u-tag-error {
+.u-tag.u-tag-danger {
   color: #FFFFFF;
-  background-color: #F44336;
-  border: 1px #F44336 solid; }
+  background-color: rgb(244,67,54);
+  border: 1px rgb(244,67,54) solid; }
 
 .u-tag.u-tag-info {
   color: #FFFFFF;
-  background-color: #00BCD4;
-  border: 1px #00BCD4 solid; }
+  background-color: rgb(0,188,212);
+  border: 1px rgb(0,188,212) solid; }
 
 .u-tag-border.u-tag-dark {
-  color: #505F79;
+  color: rgb(97,97,97);
   background-color: #DADEE4;
-  border: 1px #505F79 solid; }
+  border: 1px rgb(97,97,97) solid; }
 
 .u-tag-border.u-tag-primary {
-  color: #f53c32;
+  color: rgb(245, 60, 50);
   background-color: #f0c8c8;
-  border: 1px #f53c32 solid; }
+  border: 1px rgb(245, 60, 50) solid; }
 
 .u-tag-border.u-tag-success {
-  color: #1F8B30;
+  color: rgb(76,175,80);
   background-color: #E8F5E9;
-  border: 1px #1F8B30 solid; }
+  border: 1px rgb(76,175,80) solid; }
 
 .u-tag-border.u-tag-warning {
-  color: #EB8416;
+  color: rgb(255,152,0);
   background-color: #FFF3E0;
-  border: 1px #EB8416 solid; }
+  border: 1px rgb(255,152,0) solid; }
 
-.u-tag-border.u-tag-error {
-  color: #F44336;
+.u-tag-border.u-tag-danger {
+  color: rgb(244,67,54);
   background-color: #e6d0d3;
-  border: 1px #F44336 solid; }
+  border: 1px rgb(244,67,54) solid; }
 
 .u-tag-border.u-tag-info {
-  color: #00BCD4;
+  color: rgb(0,188,212);
   background-color: #d1dde6;
-  border: 1px #00BCD4 solid; }
+  border: 1px rgb(0,188,212) solid; }
