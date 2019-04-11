@@ -69,7 +69,7 @@ const colorsMap = {
     primary: 'primary',
     success: 'success',
     warning: 'warning',
-    error: 'error',
+    danger: 'danger',
     info: 'info'
 };
 

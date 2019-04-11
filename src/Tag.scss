@@ -15,19 +15,20 @@ $tag-border-style: solid;
 $tag-border-color: #A5ADBA;
 $tag-border-bg-color: #F7F9FB;
 
+
 $tag-text-color:#FFFFFF;
-$tag-dark-color: #505F79;
-$tag-primary-color:#f53c32;
-$tag-success-color:#1F8B30;
-$tag-warning-color:#EB8416;
-$tag-error-color:#F44336;
-$tag-info-color:#00BCD4;
+$tag-dark-color: $brand-dark;
+$tag-primary-color: $brand-primary;
+$tag-success-color: $brand-success;
+$tag-warning-color: $brand-warning;
+$tag-danger-color: $brand-danger;
+$tag-info-color: $brand-info;
 
 $tag-dark-background-color:#DADEE4;;
 $tag-primary-background-color:#f0c8c8;
 $tag-success-background-color:#E8F5E9;
 $tag-warning-background-color:#FFF3E0;
-$tag-error-background-color:#e6d0d3;
+$tag-danger-background-color:#e6d0d3;
 $tag-info-background-color:#d1dde6;
 
 //標籤顏色
@@ -99,8 +100,8 @@ $tag-info-background-color:#d1dde6;
 .u-tag.u-tag-warning{
     @include tag-styles-variant($tag-text-color,$tag-warning-color);
 }
-.u-tag.u-tag-error{
-    @include tag-styles-variant($tag-text-color,$tag-error-color);
+.u-tag.u-tag-danger{
+    @include tag-styles-variant($tag-text-color,$tag-danger-color);
 }
 .u-tag.u-tag-info{
     @include tag-styles-variant($tag-text-color,$tag-info-color);
@@ -159,8 +160,8 @@ $tag-info-background-color:#d1dde6;
 .u-tag.u-tag-warning{
     @include tag-styles-variant($tag-text-color,$tag-warning-color);
 }
-.u-tag.u-tag-error{
-    @include tag-styles-variant($tag-text-color,$tag-error-color);
+.u-tag.u-tag-danger{
+    @include tag-styles-variant($tag-text-color,$tag-danger-color);
 }
 .u-tag.u-tag-info{
     @include tag-styles-variant($tag-text-color,$tag-info-color);
@@ -179,8 +180,8 @@ $tag-info-background-color:#d1dde6;
 .u-tag-border.u-tag-warning{
     @include border-tag-styles-variant($tag-warning-color,$tag-warning-background-color);
 }
-.u-tag-border.u-tag-error{
-    @include border-tag-styles-variant($tag-error-color,$tag-error-background-color);
+.u-tag-border.u-tag-danger{
+    @include border-tag-styles-variant($tag-danger-color,$tag-danger-background-color);
 }
 .u-tag-border.u-tag-info{
     @include border-tag-styles-variant($tag-info-color,$tag-info-background-color);

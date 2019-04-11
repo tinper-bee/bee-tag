@@ -42,7 +42,7 @@ import "./node_modules/bee-tag/src/Tag.scss"
 
 |参数|说明|类型|默认值|
 |:---|:----:|:---:|------:|
-|colors|颜色(defaultdark/defaultlight/success/warning/error/message/danger)|string|''|
+|colors|颜色(dark/light/success/warning/primary/message/danger)|string|''|
 |disabled|是否禁用(`disabled` 或 `true` `false`)|boolean|false|
 |deleted|是否可以删除(`deleted` 或 `true` `false`)|boolean|false|
 |onDelete|删除时的回调|(e) => void|-|

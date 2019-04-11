@@ -18,7 +18,7 @@ import Tag from '../../src';
                     <Tag colors="primary">primary</Tag>
                     <Tag colors="success">success</Tag>
                     <Tag colors="warning">warning</Tag>
-                    <Tag colors="error">error</Tag>
+                    <Tag colors="danger">danger</Tag>
                     <Tag colors="info">info</Tag>
                 </div>  
                 <div className="divider"></div>
@@ -27,7 +27,7 @@ import Tag from '../../src';
                     <Tag bordered colors="primary">primary</Tag>
                     <Tag bordered colors="success">success</Tag>
                     <Tag bordered colors="warning">warning</Tag>
-                    <Tag bordered colors="error">error</Tag>
+                    <Tag bordered colors="danger">danger</Tag>
                     <Tag bordered colors="info">info</Tag>
                 </div>       
             </div>

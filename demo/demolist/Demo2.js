@@ -12,7 +12,7 @@ class Demo2 extends Component {
             <div className="demoPadding">
                 <Tag colors="success">success</Tag>
                 <Tag colors="warning">warning</Tag>
-                <Tag colors="error">error</Tag>
+                <Tag colors="danger">danger</Tag>
                 <Tag colors="info">info</Tag>
              </div>
         )
