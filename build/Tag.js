@@ -98,42 +98,13 @@ var defaultProps = {
 };
 
 var colorsMap = {
-    tag1: 'tag1',
-    tag2: 'tag2',
-    tag3: 'tag3',
-    tag4: 'tag4',
-    tag5: 'tag5',
-    tag6: 'tag6',
-    tag7: 'tag7',
-    tag8: 'tag8',
-    tag9: 'tag9',
-    tag10: 'tag10',
-    tag11: 'tag11',
-    tag12: 'tag12',
-    tag13: 'tag13',
-    tag14: 'tag14',
-    tag15: 'tag15',
-    border_tag1: 'border_tag1',
-    border_tag2: 'border_tag2',
-    border_tag3: 'border_tag3',
-    border_tag4: 'border_tag4',
-    border_tag5: 'border_tag5',
-    border_tag6: 'border_tag6',
-    border_tag7: 'border_tag7',
-    border_tag8: 'border_tag8',
-    border_tag9: 'border_tag9',
-    border_tag10: 'border_tag10',
-    border_tag11: 'border_tag11',
-    border_tag12: 'border_tag12',
-    border_tag13: 'border_tag13',
-    border_tag14: 'border_tag14',
-    border_tag15: 'border_tag15',
-    defaultdark: 'defaultdark',
-    defaultlight: 'defaultlight',
+    dark: 'dark',
+    light: 'light',
+    primary: 'primary',
     success: 'success',
     warning: 'warning',
     error: 'error',
-    message: 'message'
+    info: 'info'
 };
 
 var Tag = function (_Component) {
@@ -151,8 +122,8 @@ var Tag = function (_Component) {
             _this.props.tagClick && _this.props.tagClick(e);
         };
 
-        _this.onClose = function (e) {
-            _this.props.iconClick && _this.props.iconClick(e);
+        _this.onDelete = function (e) {
+            _this.props.onClose && _this.props.onClose(e);
         };
 
         _this.state = {
@@ -182,7 +153,7 @@ var Tag = function (_Component) {
             clsObj[clsPrefix + '-' + colorsMap[colors]] = true;
         }
         if (bordered) {
-            clsObj[clsPrefix + '-bordered'] = true;
+            clsObj[clsPrefix + '-border'] = bordered;
         }
         if (select) {
             clsObj[clsPrefix + '-select'] = select;
@@ -201,9 +172,9 @@ var Tag = function (_Component) {
         var classes = (0, _classnames2["default"])(clsPrefix, clsObj);
         return _react2["default"].createElement(
             'span',
-            _extends({}, others, { className: classes, disabled: disabled, deleted: deleted, select: select, onClick: this.click }),
+            _extends({}, others, { className: classes, disabled: disabled, bordered: bordered, deleted: deleted, select: select, onClick: this.click }),
             children,
-            visible ? _react2["default"].createElement(_beeIcon2["default"], { type: 'uf-close', onClick: this.onClose }) : ''
+            visible ? _react2["default"].createElement(_beeIcon2["default"], { type: 'uf-close', onClick: this.props.onClose }) : ''
         );
     };
 
