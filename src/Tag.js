@@ -3,7 +3,6 @@ import ReactDoM from 'react-dom';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import Icon from 'bee-icon';
-import { Agent } from 'http';
 
 const propTypes = {
     /**
@@ -87,8 +86,8 @@ class Tag extends Component {
         })
         this.props.tagClick&&this.props.tagClick(e)
     }
-    onClose=(e)=>{
-        this.props.iconClick&&this.props.iconClick(e)
+    onDelete=(e)=>{
+        this.props.onClose&&this.props.onClose(e)
     }
     render() {
         let {colors,
@@ -129,7 +128,7 @@ class Tag extends Component {
         return(
             <span {...others} className={classes} disabled={disabled} bordered={bordered} deleted={deleted} select={select} onClick={this.click}>
                 {children}
-                {visible ? <Icon type='uf-close' onClick={this.onClose}/> : ''}
+                {visible ? <Icon type='uf-close' onClick={this.props.onClose}/> : ''}
             </span>
         );
     }

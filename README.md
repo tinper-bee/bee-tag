@@ -44,7 +44,8 @@ import "./node_modules/bee-tag/src/Tag.scss"
 |:---|:----:|:---:|------:|
 |colors|颜色(defaultdark/defaultlight/success/warning/error/message/danger)|string|''|
 |disabled|是否禁用(`disabled` 或 `true` `false`)|boolean|false|
-|deleted|是否可以删除(`deleted` 或 `true` `false`)，有回调函数onClose()|boolean|false|
+|deleted|是否可以删除(`deleted` 或 `true` `false`)|boolean|false|
+|onDelete|删除时的回调|(e) => void|-|
 |select|是否可以选择(`select` 或 `true` `false`)|boolean|false|
 
 #### 开发调试

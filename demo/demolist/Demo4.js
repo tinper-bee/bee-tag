@@ -6,26 +6,44 @@
 */
 import React, { Component } from 'react';
 import Tag from '../../src';
-class Demo4 extends Component {
+
+class Demo4 extends React.Component {
     state = {
-        tags: ['员工编号','员工姓名','员工性别','所属部门']
-      };
-    
+      tags: ['员工编号', '员工姓名', '员工性别','所属部门']
+    };
+  
     handleClose = (removedTag) => {
-        const tags = this.state.tags.filter(tag => tag !== removedTag);
-        console.log(tags);
-        this.setState({ tags });
+      const tags = this.state.tags.filter(tag => tag !== removedTag);
+      this.setState({ tags });
     }
-    render () { 
-        return (
-            <div className="demoPadding" >
-                <Tag  visible={true} deleted onClose={this.handleClose}>员工编号</Tag>
-                <Tag  visible={true} deleted onClose={this.handleClose}>员工姓名</Tag>
-                <Tag  visible={true} deleted onClose={this.handleClose}>员工性别</Tag>
-                <Tag  visible={true} deleted onClose={this.handleClose}>所属部门</Tag>
-            </div>
-        )
+  
+    forMap = (tag) => {
+      const tagElem = (
+        <Tag visible={true} deleted 
+          onClose={(e) => {
+            e.preventDefault();
+            this.handleClose(tag);
+          }}
+        >
+          {tag}
+        </Tag>
+      );
+      return (
+        <span key={tag}>
+          {tagElem}
+        </span>
+      );
     }
-}
+  
+    render() {
+      const { tags } = this.state;
+      const tagChild = tags.map(this.forMap);
+      return (
+        <div className="demoPadding">
+              {tagChild}
+        </div>
+      );
+    }
+  }
 
 export default Demo4;
