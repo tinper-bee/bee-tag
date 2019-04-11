@@ -38,15 +38,9 @@ class Demo4 extends React.Component {
     render() {
       const { tags } = this.state;
       const tagChild = tags.map(this.forMap);
-        //  var add = document.getElementById("addTag").value;
-        //  if(add!=" ")
-        //  {  
-        //   tags.push(add);
-        //  }
       return (
         <div className="demoPadding">
           {tagChild}
-          <input type="text" id="addTag"/>
         </div>
       );
     }
