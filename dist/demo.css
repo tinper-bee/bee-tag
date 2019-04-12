@@ -92,16 +92,6 @@
     background: #505F79;
     color: white; }
 
-.u-tag.u-tag-dark {
-  color: #FFFFFF;
-  background-color: rgb(97,97,97);
-  border: 1px rgb(97,97,97) solid; }
-
-.u-tag.u-tag-primary {
-  color: #FFFFFF;
-  background-color: rgb(245, 60, 50);
-  border: 1px rgb(245, 60, 50) solid; }
-
 .u-tag.u-tag-success {
   color: #FFFFFF;
   background-color: rgb(76,175,80);
@@ -121,16 +111,6 @@
   color: #FFFFFF;
   background-color: rgb(0,188,212);
   border: 1px rgb(0,188,212) solid; }
-
-.u-tag-border.u-tag-dark {
-  color: rgb(97,97,97);
-  background-color: #DADEE4;
-  border: 1px rgb(97,97,97) solid; }
-
-.u-tag-border.u-tag-primary {
-  color: rgb(245, 60, 50);
-  background-color: #f0c8c8;
-  border: 1px rgb(245, 60, 50) solid; }
 
 .u-tag-border.u-tag-success {
   color: rgb(76,175,80);
