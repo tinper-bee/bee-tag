@@ -30,7 +30,7 @@ $tag-warning-background-color:#FFF8E1;
 $tag-danger-background-color:#FFEBEE;
 $tag-info-background-color:#E0F7FA;
 
-//標籤顏色
+//标签颜色
 @mixin tag-styles-variant($text-color,$bg-color) {
     color: $text-color;
     background-color: $bg-color;
