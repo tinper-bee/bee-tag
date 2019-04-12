@@ -5,10 +5,10 @@ import classnames from 'classnames';
 import Icon from 'bee-icon';
 
 const propTypes = {
-    /**
-     * @title 样式 
-     */
-    style: PropTypes.object,
+    // /**
+    //  * @title 样式 
+    //  */
+    // style: PropTypes.object,
 
     /**
      * @title 形状 
@@ -49,9 +49,7 @@ const propTypes = {
      * @veIgnore
      */
     className: PropTypes.string,
-
-    tagClick: PropTypes.func,
-    iconClick: PropTypes.func
+    tagClick: PropTypes.func
 };
 
 const defaultProps = {
@@ -117,13 +115,6 @@ class Tag extends Component {
         if(deleted){
             clsObj[`${clsPrefix}-delete`] = deleted;
         }
-        
-        // var arr = ['dark','light','primary','success','warning','danger','info'];
-        // let para = this.props.colors;
-        // if(arr.indexOf(para)<0){
-        //     color:para;
-        //     background-color:para;
-        // }
         
         // 选择标签选中时，改变标签当前状态
         if(this.props.select == true){

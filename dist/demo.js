@@ -32673,10 +32673,10 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
 	
 	var propTypes = {
-	    /**
-	     * @title 样式 
-	     */
-	    style: _propTypes2['default'].object,
+	    // /**
+	    //  * @title 样式 
+	    //  */
+	    // style: PropTypes.object,
 	
 	    /**
 	     * @title 形状 
@@ -32717,9 +32717,7 @@
 	     * @veIgnore
 	     */
 	    className: _propTypes2['default'].string,
-	
-	    tagClick: _propTypes2['default'].func,
-	    iconClick: _propTypes2['default'].func
+	    tagClick: _propTypes2['default'].func
 	};
 	
 	var defaultProps = {
@@ -32795,13 +32793,6 @@
 	        if (deleted) {
 	            clsObj[clsPrefix + '-delete'] = deleted;
 	        }
-	
-	        // var arr = ['dark','light','primary','success','warning','danger','info'];
-	        // let para = this.props.colors;
-	        // if(arr.indexOf(para)<0){
-	        //     color:para;
-	        //     background-color:para;
-	        // }
 	
 	        // 选择标签选中时，改变标签当前状态
 	        if (this.props.select == true) {
