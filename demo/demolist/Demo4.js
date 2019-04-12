@@ -7,6 +7,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Tag from '../../src';
+import FormControl from 'bee-form-control';
 
 class Demo4 extends React.Component {
     state = {
@@ -59,7 +60,7 @@ class Demo4 extends React.Component {
             </div>
             <div className="divider"></div>
             <div>
-             <input maxlength="8" type="input"  ref="addTag" onBlur={this.inputOnBlur } 
+             <FormControl maxlength="8" type="input"  ref="addTag" onBlur={this.inputOnBlur } 
                 style={{width:83,height:20}} placeholder="添加标签"/>
             </div>
          </div>
