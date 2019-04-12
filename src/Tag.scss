@@ -25,10 +25,10 @@ $tag-info-color: $brand-info;
 
 $tag-dark-background-color:#DADEE4;;
 $tag-primary-background-color:#f0c8c8;
-$tag-success-background-color:#E8F5E9;
-$tag-warning-background-color:#FFF3E0;
-$tag-danger-background-color:#e6d0d3;
-$tag-info-background-color:#d1dde6;
+$tag-success-background-color:#F1F8E9;
+$tag-warning-background-color:#FFF8E1;
+$tag-danger-background-color:#FFEBEE;
+$tag-info-background-color:#E0F7FA;
 
 //標籤顏色
 @mixin tag-styles-variant($text-color,$bg-color) {
@@ -44,6 +44,7 @@ $tag-info-background-color:#d1dde6;
 } 
 
 .u-tag{
+    position:relative;
     display:inline-block;
     cursor:default;
     text-align:center;
@@ -148,12 +149,6 @@ $tag-info-background-color:#d1dde6;
 }
 
 // 多彩标签
-.u-tag.u-tag-dark{
-    @include tag-styles-variant($tag-text-color,$tag-dark-color);
-}
-.u-tag.u-tag-primary{
-    @include tag-styles-variant($tag-text-color,$tag-primary-color);
-}
 .u-tag.u-tag-success{
     @include tag-styles-variant($tag-text-color,$tag-success-color);
 }
@@ -168,12 +163,6 @@ $tag-info-background-color:#d1dde6;
 }
 
 // 多彩标签带边框
-.u-tag-border.u-tag-dark{
-    @include border-tag-styles-variant($tag-dark-color,$tag-dark-background-color);
-}
-.u-tag-border.u-tag-primary{
-    @include border-tag-styles-variant($tag-primary-color,$tag-primary-background-color);
-}
 .u-tag-border.u-tag-success{
     @include border-tag-styles-variant($tag-success-color,$tag-success-background-color);
 }

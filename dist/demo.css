@@ -1,6 +1,7 @@
 /* FormGroup */
 /*  Navlayout  */
 .u-tag {
+  position: relative;
   display: inline-block;
   cursor: default;
   text-align: center;
@@ -133,22 +134,22 @@
 
 .u-tag-border.u-tag-success {
   color: rgb(76,175,80);
-  background-color: #E8F5E9;
+  background-color: #F1F8E9;
   border: 1px rgb(76,175,80) solid; }
 
 .u-tag-border.u-tag-warning {
   color: rgb(255,152,0);
-  background-color: #FFF3E0;
+  background-color: #FFF8E1;
   border: 1px rgb(255,152,0) solid; }
 
 .u-tag-border.u-tag-danger {
   color: rgb(244,67,54);
-  background-color: #e6d0d3;
+  background-color: #FFEBEE;
   border: 1px rgb(244,67,54) solid; }
 
 .u-tag-border.u-tag-info {
   color: rgb(0,188,212);
-  background-color: #d1dde6;
+  background-color: #E0F7FA;
   border: 1px rgb(0,188,212) solid; }
 
 .demoPadding tag {
