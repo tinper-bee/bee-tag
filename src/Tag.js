@@ -89,6 +89,7 @@ class Tag extends Component {
     onDelete=(e)=>{
         this.props.onClose&&this.props.onClose(e)
     }
+    
     render() {
         let {colors,
             disabled,
@@ -117,13 +118,20 @@ class Tag extends Component {
             clsObj[`${clsPrefix}-delete`] = deleted;
         }
         
+        // var arr = ['dark','light','primary','success','warning','danger','info'];
+        // let para = this.props.colors;
+        // if(arr.indexOf(para)<0){
+        //     color:para;
+        //     background-color:para;
+        // }
+        
         // 选择标签选中时，改变标签当前状态
         if(this.props.select == true){
             if(this.state.selected){
                 clsObj[`${clsPrefix}-selected`] = true;
             }
         }
-
+        
         let classes = classnames(clsPrefix, clsObj);
         return(
             <span {...others} className={classes} disabled={disabled} bordered={bordered} deleted={deleted} select={select} onClick={this.click}>

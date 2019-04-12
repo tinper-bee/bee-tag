@@ -3,11 +3,10 @@
 
 $tag-line-height: 20px;
 $tag-padding-x: 8px;
-$tag-padding-y: 1px;
 $tag-font-size: 12px;
 $tag-font-weight: 400;
 $tag-border-radius: 3px;
-$tag-max-width: 108px; 
+$tag-max-width: 150px; 
 $tag-default-text-color: white;
 
 $tag-border-width: 1px; 
@@ -44,12 +43,7 @@ $tag-info-background-color:#d1dde6;
     border:1px  $text-color solid;
 } 
 
-
 .u-tag{
-    *{
-        margin:0;
-        padding:0;
-    }
     display:inline-block;
     cursor:default;
     text-align:center;
@@ -64,7 +58,6 @@ $tag-info-background-color:#d1dde6;
     padding-left: $tag-padding-x;
     padding-right: $tag-padding-x;
     border-radius: $tag-border-radius;
-    height:20px;
     font-weight:400;
     font-size:12px;
     margin-right:23px;
@@ -94,8 +87,7 @@ $tag-info-background-color:#d1dde6;
 
 .u-tag-light {
     color: #212121;
-    // background-color: #F7F9FB;
-    background-color: $brand-light;
+    background-color:#F7F9FB;;
     border: 1px solid #A5ADBA;
 }
 

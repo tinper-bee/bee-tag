@@ -28,7 +28,7 @@ import Tag/build/Tag.css;
 |colors|颜色(dark/light/success/warning/primary/message/danger)|string|''|
 |disabled|是否禁用(`disabled` 或 `true` `false`)|boolean|false|
 |deleted|是否可以删除(`deleted` 或 `true` `false`)|boolean|false|
-|onDelete|删除时的回调|(e) => void|-|
+|onClose|删除时的回调|(e) => void|-|
 |select|是否可以选择(`select` 或 `true` `false`)|boolean|false|
 
 ## 注意事项
