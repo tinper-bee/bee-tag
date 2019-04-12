@@ -32673,10 +32673,10 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
 	
 	var propTypes = {
-	    // /**
-	    //  * @title 样式 
-	    //  */
-	    // style: PropTypes.object,
+	    /**
+	     * @title 样式 
+	     */
+	    style: _propTypes2['default'].object,
 	
 	    /**
 	     * @title 形状 

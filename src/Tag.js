@@ -5,10 +5,10 @@ import classnames from 'classnames';
 import Icon from 'bee-icon';
 
 const propTypes = {
-    // /**
-    //  * @title 样式 
-    //  */
-    // style: PropTypes.object,
+    /**
+     * @title 样式 
+     */
+    style: PropTypes.object,
 
     /**
      * @title 形状 
