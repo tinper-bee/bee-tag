@@ -14,7 +14,7 @@ import { Tag } from 'tinper-bee';
 or
 
 import Tag from 'bee-tag';
-import Tag/build/Tag.css;
+import 'Tag/build/Tag.css';
 
 ```
 
